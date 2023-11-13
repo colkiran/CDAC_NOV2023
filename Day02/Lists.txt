@@ -1,0 +1,64 @@
+Lists
+------
+ 'append', 'clear',  'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 
+
+'sort', 'copy'
+
+https://pythontutor.com/visualize.html#mode=edit
+
+sort	-	will sort the original array
+sorted	-	will take a copy of the list and sort it.
+
+
+Dictionary
+----------
+1. also called associative array
+
+2. unordered collection
+
+3. keys are always unique
+
+4. dictionaries are enclosed in {k1:v1, k2: v2, ..... }
+
+
+'clear', 'copy', 'fromkeys', 'get', 'items', 'keys', 'pop', 'popitem', 'setdefault', 'update', 'values'
+
+
+Tuples
+------
+tuples are immutable lists
+
+tuples are enclosed in (1, 2, 3, 4, 5)
+
+
+sets
+----
+1. collection of unique values
+
+2. unordered collection
+
+3. cannot be subscripted
+
+4. it is mutable
+
+5. it is enclosed in {a, b, c, 1, 2....}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

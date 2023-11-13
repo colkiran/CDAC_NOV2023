@@ -1,0 +1,275 @@
+Python
+------
+1. Its an open source technology
+
+2. ready made functions to accomplish many tasks
+
+3. Ready to use libraries
+
+Desktop Applications	-	Python and TK(tool 						kit)
+
+Web Application		-	Django, Flask
+
+Testing			-	pytest, selenium, 				robot framework
+
+Webscrapping		-	Beautiful soup, 				request
+
+Automation		-	paramiko
+
+DataScience		
+------------
+	a. Data Analytics	- Numpy, Pandas, 				Matploib, Seaborn
+
+	b. Machine Learning
+
+	c. AI
+
+
+Data Engineering
+
+Python Versions
+----------------
+2.x and 3.x
+
+2.x
+print "hello"
+
+3.x
+print("hello")
+
+Flovours of Python
+---------------------
+1. Cpython	-	currently using
+
+2. Jython	-	Python - Java
+
+3. Iron Python	-	Use Dotnet Libraries
+
+www.python.org
+
+www.activestate.com
+
+Editor
+------
+1. pycharm community Edition - open source 
+
+2. VS code CE
+
+3. Eclipse
+
+4. sublime text
+
+5. Notepad++
+
+6. Jupyter Notebook (Anaconda)
+
+7. google colabs
+
+python
+-------
+1. SDK  - python with minimum lib to execute code
+
+2. Shell
+
+3. IDLE		- UI Integrated Development 				Environment
+
+
+Overloaded Operators
+---------------------
++	- addition and concatenation
+*	- multiplication and printing strings n times
+
+Data Types
+-----------
+1. Numbers
+    a. integers
+    b. float
+    c. complex
+2. Strings
+3. Boolean
+
+2.x 
+numbers had a datatype called long
+25902348238498236491921623192301397L
+
+
+IDLE
+
+import a module
+----------------
+module is a library
+
+To execute a code more than once in the shell we can use reload function
+
+reload function should be imported from imp module
+
+import imp
+
+from imp import reload
+reload will become local to the environment
+
+Coding Rules
+-------------
+
+#!	-	She bang - used to specify the path of python executables
+
+comments
+--------
+#  - is used to comment a line
+
+# this a comment
+
+print("Hello World")	# this is a comment
+
+# This is a comment
+
+
+Strings
+-------
+single line strings they are enclosed in "  "  or  '  '
+
+multiple line strings are enclosed in """   """ or  '''    '''
+
+"this is a string"
+
+'this is a string'
+
+"""
+this is line one
+this is line two
+this is line three
+"""
+
+'''
+this is line one
+this is line two
+this is line three
+'''
+Python code does not depend on paranthesis instead implements indentation
+
+function fun()
+{
+   print("Hello World")
+}
+
+in python 
+
+def fun():
+    for i in range(1, 11):
+	if i % 2 == 0:
+           print(i)
+	
+	   print("if condition code")
+
+	print("for loop code")
+
+
+
+    print("function code....")
+
+print("Main module code....")
+
+
+
+Loops and control structures
+----------------------------
+
+Loops
+-----
+1. for loop
+
+is like a foreach loop depends on a collection
+
+to generate a collection we use range function
+
+for i in range(1, 10):
+    print(i)
+
+
+2. while loop
+
+
+print function
+---------------
+print(data, sep=, end="\n")
+
+print('hello')
+
+
+Control Structure
+-----------------
+1. if conditions
+
+
+Data Types
+-----------
+1. Numbers
+    a. integers
+    b. float
+    c. complex
+2. Strings
+3. Boolean
+
+
+Strings
+-------
+strings can be enclosed in "" or ''
+
+STRINGS ARE IMMUTABLE
+----------------------
+
+find, replace, transpose, maketrans, format 
+
+Data Structures
+---------------
+1. lists
+2. dictionary
+3. tuple
+4. sets
+
+
+Lists
+-----
+lists are similar to arrays
+
+what are arrays?
+1. collection of homogenous data
+
+2. memory allocation is contigious
+
+
+lists are collection of hetrogenous data
+
+Memory allocation is not contigious
+
+they are ordered collection
+
+they are mutable
+
+lists are enclosed in []
+
+
+
+ 'append', 'clear',  'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 
+
+'sort', 'copy'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	  
+
+
