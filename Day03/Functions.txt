@@ -1,0 +1,69 @@
+Functions
+---------
+snippet of code that is kept seperately and recalled is called a funtion.
+
+def fun(args):
+    print("Hello World")
+
+
+Lambdas
+--------
+result of expression = lambda arg1, arg2, arg3....: expression
+
+
+
+map(function, list)
+reduce(function, list)
+filter(function, list)
+
+using lambda syntax we can Iterate through a collection - comprehension
+
+List comprehension 
+dictionary comprehension
+
+
+
+
+
+
+
+
+
+Assignment
+----------
+PROB-01
+-------
+['mar', 'jul', 'dec', 'sep', 'apr',  'nov', 'feb',  'may', 'oct',  'aug', 'jun', 'jan']
+sort these months using lambdas like calendar
+
+
+Prob02
+------
+Write a code to create a identity matrix
+
+
+Prob03
+------
+Write a code to create a magic matrix
+
+Constant = n(n**2 + 1) / 2
+
+1. n / 2, n -1
+
+2. r, c	=> r = r -1, c = c + 1
+
+3. if r = -1	=> r = n - 1
+
+4. if col = n 	=> col = 0
+
+5. Position occupied -> r = r + 1, c = c - 2
+
+6. r, c = (-1, n) => (0, n-2)
+
+
+
+
+
+
+
+
