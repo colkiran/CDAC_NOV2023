@@ -1,0 +1,10 @@
+functions
+---------
+
+scope of a variable
+
+1. global
+2. local
+3. non local
+
+by default a variable is global in scope 
