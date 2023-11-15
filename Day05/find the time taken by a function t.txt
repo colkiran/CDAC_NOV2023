@@ -1,0 +1,59 @@
+find the time taken by a function to execute using a decorator
+
+
+File Handling
+-------------
+Read	- r
+
+Write	- w
+
+Append	- a
+
+
+Read EMP.csv and fetch the following information using your data structures 
+
+	1. count of males and females (using a dictionary)
+	2. list of unique designations (using a list)
+	3. list of unique departments (using a list)
+	4. sum of all salaries
+	5. sum of salaries of female managers
+
+
+
+CSV files
+----------
+Remove the blank lines while writing into a csv file
+
+Json file should be written properly not in a single line.
+
+
+Excel
+-----
+openpyxl
+
+Excel File 	-	Workbook
+
+sheets		-	Worksheets
+
+grid		-	rows and columns
+		
+row		-	1048576 rows 
+
+columns		-	A - Z, AA... AZ, BA..BZ - XFD (16384)
+
+cell		-	Name = colname + rowno => A10, B15, C100, A120
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  
