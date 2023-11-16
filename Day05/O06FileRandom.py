@@ -23,6 +23,6 @@ pos = FL.seek(-300, 2)
 
 print(f"position :{pos}")
 
-pos = FL.seek(-50, 0)
+# pos = FL.seek(-50, 0)
 
 FL.close()
