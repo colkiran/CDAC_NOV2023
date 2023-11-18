@@ -1,0 +1,41 @@
+Inheritance
+-----------
+1. mutiple inheritance
+
+2. multi level inheritance 
+
+
+Packages and Modules
+--------------------
+Modules are same as libraries (other technologies)
+
+Modules will have functions writen in it
+
+if we have to use a function in the module then we have to import the module
+
+--------------------------------------------------------------------
+
+Package - are folder or directories where the modules are stored
+
+Folder with their name and store the module inside it
+
+----------------------------------------------------------------------
+import mymodule
+----------------
+1. mymodule.py will get converted to mymodule.pyc
+
+2. modules will be searched in the environment path
+
+3. looks for .pth file in the Native path, if present then import all the path
+
+4. python will check the date and time of the .py and .pyc file, it expects the .pyc file to have the latest date and time copared to .py file
+ 
+
+
+Native Path
+------------
+C:\Users\Kiran\AppData\Local\Programs\Python\Python311
+
+
+
+
