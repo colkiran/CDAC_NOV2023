@@ -1,0 +1,142 @@
+what are Regular Expressions?
+
+*
+?
+
+dir *.txt
+
+* means filename - it can be 1 or more characters
+
+a*.txt
+
+?a*.txt
+
+*a.txt
+
+*a?.txt
+
+The complaint number is 33234TV091 for TV repair
+
+Regular Expression
+-------------------
+
+\d+
+
+(c\w+)
+
+
+Basic Regular Expressions
+-------------------------
+.	single character
+
+^	begining of the string
+$ 	end of the string
+
+*	ba*t 
+	* is applicable for a
+	zero or more occurances
+?	zero or one occurance
+
++ 	one or more occurance
+
+{n}	exactly n times
+
+{n,}	minimum n times
+
+{n,m} 	minimum n times  and max m times
+
+[]	Character class
+	
+()	grouping
+
+|	alternation
+
+\	escape
+
+---------------------------------------------------------------
+
+1. write a regex to validate a license number
+
+LCNO-KAR-05-2023-0001
+
+LCNO-	constant
+
+KAR - TND, KER, APN, TEL, MAH, GOA
+
+05 - RTO office number - 01 - 73
+
+2023 - 2000+
+
+0001 - 0001 - 9999
+
+
+[0-9][1-9] - 01, 02, 03.., 11, 12, 13, 14..., 21, 22, 23...
+01 - 99 (10, 20, 30, ...90)
+
+[0-9][1-9]
+0     1	
+1     2
+2     3
+3     4
+4     5
+5     6
+6     7
+7     8
+8     9
+9
+
+
+lno = "LCNO-(KAR)-07-2023-0001"
+
+
+--------------------------------------------------------
+
+\w	-	word		-	alpha numeric data
+\W	-	non word	-	all special characters
+\d	-	digits		-	numeric
+\D	-	non numeric	-	alphabets, special characters
+\s	-	space		-	spaces
+\S	-	non space	-	alphabets, numbers, special characters(exp num)
+\B	-	Word boundary	-	
+\b	-	non WB		-	
+\A	-	Begning of the string
+\Z	-	Ending of the string
+
+
+---------------------------------------------------------------------
+three parts in our results
+
+"this is a sample string."
+
+word that starts with 's'	= sample
+
+1. string that did'nt match the regex 	-	"this is a "
+
+2. matched string			-	"sample"
+
+3. string that is not evaluated 	-	"string."
+
+
+Exceptions
+----------
+
+sys module
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

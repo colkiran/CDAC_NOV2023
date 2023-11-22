@@ -1,0 +1,19 @@
+1. mathematical
+2. logical
+3. shape manipulation
+4. sorting
+5. selecting
+6. I/O
+7. discrete Fourier transforms
+8. basic linear algebra
+9. basic statistical operations
+10. random simulation 
+
+Numpy stand for Numerical Python and was created in 2005 by Travis Oliphant.
+
+Numpy is 50x faster than traditional python lists.
+
+
+
+
+
