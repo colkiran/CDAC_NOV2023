@@ -1,0 +1,95 @@
+Numpy
+-----
+Numerical Python
+
+found by Travis Oliphant in the year 2005
+
+numpy libraries are used in 
+
+1. Machine Learning
+
+2. Image and Singnal Processing
+
+3. Scientific Computing
+
+4. Quantum computing
+
+
+Numpy arrays are optimzed for complex mathematical and statistical operations
+
+Numpy is 50x faster that lists in python
+
+uses a specialzed data structure called numpy arrays
+
+created using high performance languages like C and C++
+
+
+lit1 = [1, 2, 3, 4, 5
+arr1 = np.array(lst1)
+
+arr1 = np.array([1, 2, 3, 4, 5])
+
+Data Types Supported by Numpy
+-----------------------------
+
+1. int8, int16, int32, int64
+
+2. uint8, uint16, uint32, uint64 - unsigned integer with different bit size
+
+3. float32, floart64
+
+4. complex64, complex128
+
+
+
+Attributes of Numpy
+-------------------
+ndim		- returns the dimension of the array
+
+dtype		- returns the data type of the elements
+
+size		- returns the no of elements in the array
+
+shape 		- returns the size of the array in each dimension
+
+itemsize	- returns the size (in bytes) of each element in the 
+		  array
+
+data		- returns the buffer containing actual elements of the 
+		  array in the memory
+
+
+IO functions related to numpy
+
+save()		- saves and array to a binary file in the numpy format
+
+load()		- loads the data from binary file in the numpy
+
+savetxt()	- saves the array to a text file to a specific format
+
+loadtxt()	- load data from a text file
+
+----------------------------------------------------------------
+
+indexing
+--------
+Indexes		0  1  2  3   4
+values		1  2  3  4   5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

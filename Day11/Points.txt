@@ -1,0 +1,148 @@
+Arithematic array Operations
+---------------------------
+1. Addition
+
+2. Subtraction
+
+3. Multiplication
+
+4. Division
+
+5. Exponentiation
+
+6. Modulus
+
+
+Array Functions
+---------------
+Array creation function 	-	np.array(), np.zeros, np.ones(), np.empty()
+
+Array manipulation functions  	-	np.reshape(), np,transpose() etc
+
+Array Mathematical function	-	np.add(), np.subtract(), np.multiply(), 						np.division()
+
+Array statistical function	-	np.median(), np.mean(), np.std(), np.var()
+
+Array input and output 
+functions			- 	np.save, noload(), np.load() etc							 	    
+Median
+------
+
+For example, 6, 4, 7, 3 and 2 is the given data set.
+
+To find the median of the given dataset, arrange it in ascending order.
+
+Therefore, the dataset is 2, 3, 4, 6 and 7.
+
+In this case, the number of observations is odd. (i.e) n= 5
+
+Hence, median = (n+1)/2 th observation.
+
+Median = (5+1)/2 = 6/2 = 3rd observation.
+
+
+Therefore, the median of the given dataset is 4.
+
+if the number of observations is even (n / 2) + 1
+
+
+76, 82, 87, 60, 93, 98
+
+60, 76, 82, 87, 93, 98
+
+87
+
+-------------------------------------------------------------------------------
+
+Numpy Comparison Operator
+=========================
+<	- less than
+
+<=	- less than or equal to
+
+>	- greater than
+
+>= 	- greater than or equal to
+
+==	- equal to
+
+!=	- Not equal to
+
+
+
+Coparison Functions
+--------------------
+less()		- less than
+
+less_equal()	- less than or equal to
+
+greater()	- greater than
+
+greater_equal() - greater than or equal to
+
+equal()		- equal to
+
+not_equal()	- not equal to
+
+
+Logical Operators
+==================
+logical_and	-	compute it element wise AND operator
+
+logical_or	-	compute it element wise OR operator
+
+logical_not	-	compute it element wise NOT operator
+
+
+Math Functions
+==============
+Trignometric Functions
+
+Arithematic Functions
+
+Rounding Functions
+
+
+Trignometric Functions
+----------------------
+sin()		the sine of an angle
+
+cos()		cosine of an angle
+
+tan()		tangent of an angle
+
+arcsin()	the inverse of sine
+
+arccos()	the inverse of cosine
+
+arctan()	the inverse of tangent
+
+degrees()	converts an angle in radians to degrees
+
+radians()	converts and angle in degrees to radians
+
+
+Rounding Functions
+==================
+round()		- returns a value rounded to the desired precision
+
+floor()		- returns the values of array down to the nearest integer that is less 
+		  than each element
+
+ceil()		- returns the values of array up to the nearest integer that is greater 
+		  than each element
+
+
+Numpy Constants
+-----------------
+pi	- np.pi
+
+e	- np.e
+
+
+
+
+
+
+
+
