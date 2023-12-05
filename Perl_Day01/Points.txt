@@ -1,0 +1,110 @@
+#! =  Shebang
+
+Coding Rules
+------------
+line termination - ;
+
+comments  -	 # for single line comments
+
+multiline comments -	=cut;
+			-------
+			-------
+			=cut;
+
+PERL - CGI / PERL - First Web application to be developed
+
+Data Types
+-----------
+1. scalar	- $ (eg $name, $age)
+
+2. array	- @  (eg @arr)
+
+3. hash		- % (%hsh)
+
+interpolation
+--------------
+$ and @ symbols will be interpolated
+% does not get interpolated
+
+Loops
+-----
+1. for loop
+
+2.while loop
+
+3. do while 
+
+4. until loop
+
+5 unless (viceversa of if condition)
+
+Control Structures
+------------------
+1. if condition
+
+chop - will remove the last character
+
+chomp - will remove only the last special character
+  
+
+goto Statement
+--------------
+
+LABEL:
+
+statement - 1;
+statement - 2;
+-----
+
+----
+statement - 10;
+goto LABEL;
+
+Label can just be a name or an expression or a function name
+
+goto LABEL
+
+goto Expression
+
+goto Subroutine_name
+
+----------------------------------------------------------
+
+next, last, continue, break
+
+
+Arrays
+------
+@arr = (1, 2, 3, 4, 5)
+
+arrays are collection of scalar variables
+
+1. memory allocation is not contigious
+
+2. hetrogenous datatype
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
