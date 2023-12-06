@@ -1,0 +1,17 @@
+Hash - same as your dictionary (python)
+
+Keys and values - associative array
+
+%hash = (k1, v1, k2, v2, k3, v3....)
+
+
+To manipulate arrays in perl we have
+
+1.push
+2.pop
+3.shift
+4.unshift
+5.splice
+
+
+
