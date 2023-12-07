@@ -1,0 +1,58 @@
+File handling in perl
+---------------------
+
+Text files
+----------
+Modes of opening the file 
+
+1. Read		-	<	- Default mode
+2. Write	-	>
+3. Append	-	>>
+
+
+seek(filehandle, position, whence)
+
+Position - no of bytes to skip
+
+Whence - 0, 1, 2
+
+0 - BOF
+1 - CP
+2 - EOF
+
+tell(FL)
+
+
+functions or subroutines
+------------------------
+sub fun
+{
+   print "Hello World \n";
+}
+
+fun();
+
+
+
+Scope of a variable
+--------------------
+1. lexical
+our $i = 10
+{
+  my $i = 10
+  print "$i \n";
+  ----
+  ----
+  ----
+}
+
+print $i; 
+
+2. local
+
+
+
+
+
+
+
