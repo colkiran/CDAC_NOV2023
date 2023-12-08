@@ -1,0 +1,24 @@
+PERL - Practical Extraction and Reporting Language
+
+OOPS
+-----
+
+Inheritance - Multi level and multiple inheritance
+
+Perl Modules - .pm
+
+
+older perl files
+----------------
+.plx - perl executables
+
+.pl - Perl Library
+
+
+Later Versions
+--------------
+.pl  - perl files
+
+.pm  - perl modules
+
+
