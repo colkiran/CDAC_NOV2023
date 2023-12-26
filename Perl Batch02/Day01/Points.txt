@@ -1,0 +1,90 @@
+File Extensions
+----------------
+Older versions
+--------------
+perl files - .plx
+perl libraries - .pl
+
+later versions
+---------------
+perl files - .pl
+perl Modules - .pm
+
+Coding Rules
+-------------
+line termination - ;
+
+comments
+--------
+# - single line comment
+
+multiple line comment
+---------------------
+=cut;
+
+lines between the cut statement will be commented
+
+=cut;  (not mandatory)
+
+paranthesis are used for -> if condition,  loops, functions and classes
+
+-----------------------------------------------------------------------------------
+
+variables
+----------
+$i = 10			- Scalar variable
+
+
+Python
+for i in range(1, 15):
+	if i % 2 == 1:
+		continue;
+	else:
+
+		print(i);
+
+Perl 
+----
+1. goto	-> move the control to a specific location (label)
+2. next -> skip the current iteration
+3. last	-> to come out of the iteration
+
+Arrays
+------
+Arrays are a collection of scalar variables
+
+@arr - array variable
+
+Array manipulation functions
+----------------------------
+1. shift
+2. unshit
+3. pop
+4. push
+5. splice
+
+splice(array, offset, length, list)
+
+length has values -  replaced (length and list should be the same)
+length is zero    -  inserted
+length has value and list is null - deleted
+
+
+
+
+Hash
+----
+hashes are a collection in the form of keys and values
+
+hashes are unordered collection
+
+Hashes are represented with % -> %hsh
+
+
+
+
+
+
+
+
+
