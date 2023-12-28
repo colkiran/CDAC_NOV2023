@@ -1,0 +1,33 @@
+File handling
+--------------
+Open a file
+
+	a. read the contents of the file
+
+	b. write into the file
+
+	c. append data into the file
+
+move  your file handle from one location to another
+
+1. seek filhandle, offset, whence
+
+offset = no of bytes to skip
+
+whence - 0  - BOF
+	1   - CP
+	2   - EOF
+
+
+Assignment
+-----------
+open the directory c:\windows\temp filter all log files and generate a report which displays the filename with no of bytes (file size)
+
+
+
+
+
+
+
+
+   
